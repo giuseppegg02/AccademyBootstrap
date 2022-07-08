@@ -1,0 +1,200 @@
+.image-header{
+    width:100%;
+    height:auto;
+    background-color: aqua;
+    display:flex;
+    margin-top: 10px;
+
+}
+.card-text{
+    display: inline-flex;
+    
+}
+
+.image-fumetti{
+height:500px;
+background-color: red;
+width:25%;
+display: flex;
+
+}
+.circle
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgb(255, 0, 0);
+    margin-top: -16px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.image-games{
+    height:500px;
+    background-color: blue;
+    width:25%;
+    display: flex;
+}
+
+.image-cartoon{
+    height:500px;
+    background-color: violet;
+    width:25%;
+    display: flex;
+}
+
+
+.image-serietv-cinema{
+    height:500px;
+    background-color: green;
+    width:25%;
+    display: flex;
+}
+
+.image-home{
+    width: 320px;
+    height: 500px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#copyright{
+    display: flex;
+    width:300px;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright p{
+    font-family: Gill Sans, Gill Sans MT, Calibri,sans-serif;
+    font-size: 8pt;
+    color:white;
+}
+
+.bi-heart-fill{
+margin-right:12px;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: transparent;
+}
+
+
+body{
+    background-color: orange;
+}
+
+.btn{
+    background: rgba(220, 53, 69);
+    --bs-btn-color: white;
+}
+
+.container-button{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button{
+    align-items: center;
+    display: flex;  
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: black;
+    color: orange;
+}
+
+.Bomba {
+    width: auto;
+    height: auto;
+    border-radius: auto;
+    background: black;
+    color: orange;
+}
+
+button:hover{
+    color:white;
+    background-color:rgba(220, 53, 69);
+}
+
+.main-container-page1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container-image{
+    display: flex;
+    width:33.3%;
+    height: auto;
+}
+
+.container-image2 {
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+}
+
+a{
+    color:orange;
+    text-decoration: none;
+}
+
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+.pagination{
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+margin-top: 15px;
+--bs-pagination-color: white;
+}
+
+.sceltacolori {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    --bs-pagination-color: rgb(255, 255, 255);
+}
+
+.page-link{
+background-color: black;
+}
+
+.page-lin {
+    background-color: rgb(219, 82, 82);
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: orange;
+    background-color: black;
+    border-color: #ddd;
+}
